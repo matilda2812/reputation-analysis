@@ -1,0 +1,15 @@
+{
+  "name": "Reputation analysis (via tweets)",
+  "description": "The server for side for tweet analysis",
+  "image": "heroku/python",
+  "repository": "https://github.com/matilda2812/reputation_analysis",
+  "keywords": ["python", "flask" ],
+  "addons": [ "heroku-postgresql" ],
+  "environments": {
+    "test": {
+      "scripts": {
+        "test": "server.py test"
+      }
+    }
+  }
+}
